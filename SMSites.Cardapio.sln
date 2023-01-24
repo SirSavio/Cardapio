@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{47229E99-84F1-405F-9B5E-21B222BF364A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrasctructure", "2 - Infrasctructure", "{8B90FFED-2E1E-4A6A-A23D-01B7F08A8B96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - Tests", "9 - Tests", "{298F11F7-1869-4C81-A6DC-C2994102D6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{A546EA24-38F4-426C-A2FA-D2E936D564F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{F9C82C28-536C-49C7-A748-7E8FE70B337A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmSites.Cardapio.Application.DomainModel", "SmSites.Cardapio.DomainModel\SmSites.Cardapio.Application.DomainModel.csproj", "{FD5F517B-5E7F-41E3-8903-680670ED1DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSites.Cardapio.Application.UseCase", "SMSites.Cardapio.Application.UseCase\SMSites.Cardapio.Application.UseCase.csproj", "{98D14BD9-E943-4098-B01B-44287F0C90C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSites.Cardapio.Tests.Unit", "SMSites.Cardapio.Tests.Unit\SMSites.Cardapio.Tests.Unit.csproj", "{9F3036D9-17CA-4B1E-9C34-96848AE2E237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSites.Cardapio.Tests.Integration", "SMSites.Cardapio.Tests.Integration\SMSites.Cardapio.Tests.Integration.csproj", "{E694B6A3-5693-49FB-B3A8-509D6E10787A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortOut", "PortOut", "{62D7A057-CFB8-4830-A9BA-D48F94B43F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{EE958FCE-7FD0-40CD-BEB5-1F928D1AB222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSites.Cardapio.PortOut.DataAccess", "SMSites.Cardapio.PortOut.DataAccess\SMSites.Cardapio.PortOut.DataAccess.csproj", "{FBC1A8CA-9448-4E60-A734-C2E24BF701C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD5F517B-5E7F-41E3-8903-680670ED1DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5F517B-5E7F-41E3-8903-680670ED1DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5F517B-5E7F-41E3-8903-680670ED1DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5F517B-5E7F-41E3-8903-680670ED1DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D14BD9-E943-4098-B01B-44287F0C90C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D14BD9-E943-4098-B01B-44287F0C90C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D14BD9-E943-4098-B01B-44287F0C90C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D14BD9-E943-4098-B01B-44287F0C90C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3036D9-17CA-4B1E-9C34-96848AE2E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3036D9-17CA-4B1E-9C34-96848AE2E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3036D9-17CA-4B1E-9C34-96848AE2E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3036D9-17CA-4B1E-9C34-96848AE2E237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E694B6A3-5693-49FB-B3A8-509D6E10787A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E694B6A3-5693-49FB-B3A8-509D6E10787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E694B6A3-5693-49FB-B3A8-509D6E10787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E694B6A3-5693-49FB-B3A8-509D6E10787A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC1A8CA-9448-4E60-A734-C2E24BF701C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC1A8CA-9448-4E60-A734-C2E24BF701C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC1A8CA-9448-4E60-A734-C2E24BF701C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC1A8CA-9448-4E60-A734-C2E24BF701C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A546EA24-38F4-426C-A2FA-D2E936D564F3} = {298F11F7-1869-4C81-A6DC-C2994102D6A2}
+		{F9C82C28-536C-49C7-A748-7E8FE70B337A} = {298F11F7-1869-4C81-A6DC-C2994102D6A2}
+		{FD5F517B-5E7F-41E3-8903-680670ED1DDA} = {47229E99-84F1-405F-9B5E-21B222BF364A}
+		{98D14BD9-E943-4098-B01B-44287F0C90C3} = {47229E99-84F1-405F-9B5E-21B222BF364A}
+		{9F3036D9-17CA-4B1E-9C34-96848AE2E237} = {F9C82C28-536C-49C7-A748-7E8FE70B337A}
+		{E694B6A3-5693-49FB-B3A8-509D6E10787A} = {A546EA24-38F4-426C-A2FA-D2E936D564F3}
+		{62D7A057-CFB8-4830-A9BA-D48F94B43F91} = {8B90FFED-2E1E-4A6A-A23D-01B7F08A8B96}
+		{EE958FCE-7FD0-40CD-BEB5-1F928D1AB222} = {62D7A057-CFB8-4830-A9BA-D48F94B43F91}
+		{FBC1A8CA-9448-4E60-A734-C2E24BF701C8} = {EE958FCE-7FD0-40CD-BEB5-1F928D1AB222}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8461108-2C54-4191-B686-BA7879496E66}
+	EndGlobalSection
+EndGlobal
